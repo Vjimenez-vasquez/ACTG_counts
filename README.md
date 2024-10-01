@@ -44,6 +44,8 @@ done > temp.txt
 sed '1i sample A C T G ACTG TOTAL completeness' temp.txt | tr " " "\t" > actg_counts.tsv
 cat actg_counts.tsv ;
 rm temp.txt ;
+
+cat actg_counts.tsv | sort -r -n -k8
 ```
 
 
