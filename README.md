@@ -93,7 +93,7 @@ rm input.txt *.fa
 actg_counts_output_prefix.tsv
 ```
 
-## Now usea FILTER1 to extract the contigs names over a given length (50000, 100000 or whatever)
+## Now use FILTER1 to extract the contigs names over a given length (50000, 100000 or whatever)
 ```r
 filter1 <- function(extension,prefix2,title,contig.length){
   
@@ -149,8 +149,8 @@ filter1 <- function(extension,prefix2,title,contig.length){
 ## EXAMPLE ##
 ## filter1(".tsv","actg_counts_","pilon","1000000") ##
 
-## extension: extension de los archivos a procesar (".txt",".tsv"), es tambie el ultimo patron a remover para obtener el prefijo de las muestras 
-## prefix2: palabar inicial a remover para obtener el prefijo de las muestras
+## extension: extension de los archivos a procesar (".txt",".tsv"), es tambien el ultimo patron a remover para obtener el prefijo de las muestras 
+## prefix2: palabra inicial a remover para obtener el prefijo de las muestras
 ## title: titulo de los archivos de salida
 ## contig.length: longitud minima de contig 
 ```
